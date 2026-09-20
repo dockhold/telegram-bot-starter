@@ -4,7 +4,7 @@ A Telegram bot that deploys to [Dockhold](https://dockhold.eu) with zero config.
 It runs as an always-on worker (long polling), echoes messages, and serves a
 small status page on its URL. Add your token and it's live.
 
-[![Deploy to Dockhold](https://img.shields.io/badge/Deploy%20to-Dockhold-2563eb?style=for-the-badge)](https://app.dockhold.eu/new?repo=https://github.com/dockhold/telegram-bot-starter)
+[![Deploy on Dockhold](https://dockhold.eu/button.svg)](https://app.dockhold.eu/new?repo=https://github.com/dockhold/telegram-bot-starter&name=telegram-bot-starter&ref=button)
 
 ## Deploy it
 
@@ -18,6 +18,15 @@ small status page on its URL. Add your token and it's live.
 
 The app's URL shows a small status page; the bot itself talks to Telegram
 directly, so you don't need to open or share that URL.
+
+## Deploy with your AI tool
+
+Install the Dockhold plugin or MCP server in your AI coding tool
+([setup guide](https://dockhold.eu/docs/recipes/deploy-from-your-ai-tool)), then
+say "put this online" in a folder with this template. The tool signs you in
+through the browser once and reports the URL when the app is live.
+
+Or from a terminal: `npx dockhold login`, then `npx dockhold deploy`.
 
 ## Make it yours
 
